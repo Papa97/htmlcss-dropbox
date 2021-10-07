@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .clearfix::after {
@@ -24,6 +25,7 @@ header {
 }
 
 .head-top {
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -36,6 +38,7 @@ header {
   height: 80px;
   line-height: 95px;
   vertical-align: middle;
+  padding-left: 15px;
 }
 
 .cont-nav {
@@ -72,6 +75,65 @@ nav ul li a,
   font-size: 22px;
   font-weight: 500;
   line-height: 80px;
+}
+
+/* main */
+.jumbotron {
+  background-color: #86b5ff;
+  height: 700px;
+  margin-top: 80px;
+}
+
+.container {
+  width: 85%;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 85px;
+}
+
+#jumbo-p {
+  margin-top: 70px;
+  padding-right: 70px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+#jumbo-img {
+  width: 65%;
+  margin-top: 70px;
+}
+
+#jumbo-img img {
+  height: 550px;
+  padding: 11px;
+}
+
+.cont-jumbo {
+  width: 35%;
+}
+
+.cont-btn {
+  margin-top: 40px;
+  text-align: center;
+  padding-right: 70px;
+}
+
+.cont-jumbo p {
+  margin-top: 20px;
+}
+
+i {
+  margin-top: 40px;
+  font-size: 30px;
+}
+/* BTN  */
+.btn {
+  color: white;
+  background-color: #0061ff;
+  padding: 5px 10px;
 }
 
 /* DEBUG */
