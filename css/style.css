@@ -129,6 +129,121 @@ i {
   margin-top: 40px;
   font-size: 30px;
 }
+
+/* main  */
+
+.cont-main-top {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.container-main-top h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.in-bl {
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+.container-main div {
+  width: calc(100% / 3 - 40px);
+}
+
+#mid-box {
+  margin: 0 60px 0;
+}
+
+.container-main {
+  height: 700px;
+}
+
+.container-main span {
+  text-align: center;
+}
+.bottone-main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container-main p {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.container-main p:first-of-type {
+  margin-top: 0;
+}
+
+.container-main ul {
+  line-height: 1.1;
+  margin-top: 25px;
+  margin-left: 46px;
+}
+
+.container-main ul li {
+  padding: 10px;
+}
+
+.container-main ul {
+  list-style-image: url(../img/check-solid.svg);
+}
+
+/* .container-main ul li::before {
+  list-style-image: url(../img/check-solid.svg);
+  color: #0061ff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+} */
+
+.container-main hr {
+  width: 15%;
+  margin-left: 40px;
+  margin: 40px 40px;
+}
+#user {
+  list-style-image: url(../img/user-regular.svg);
+}
+
+#folder {
+  list-style-image: url(../img/folder-regular.svg);
+}
+
+#pencil {
+  list-style-image: url(../img/pencil-alt-solid.svg);
+}
+
+.container-main p:first-of-type {
+  text-align: center;
+}
+
+.container-main p:first-of-type i {
+  padding-right: 10px;
+}
+
+.titolo-cont {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.prezzo {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.periodico {
+  color: gray;
+}
+
+.acquisto {
+  color: rgb(0, 149, 207);
+}
+
+.container-main hr {
+  margin: ;
+}
 /* BTN  */
 .btn {
   color: white;
@@ -154,4 +269,18 @@ i {
 .debug .inizia {
   background-color: blue;
   height: 80px;
+}
+
+.debug .cont-main-top h2 {
+  background-color: red;
+}
+
+.debug .container-main-top div {
+  background-color: yellow;
+}
+
+.debug .container-main div {
+  height: 900px;
+  /* background-color: orange; */
+  border: 1px solid black;
 }
