@@ -310,6 +310,41 @@ i {
   font-size: 24px;
   font-weight: 600;
 }
+
+#partner {
+  margin-top: 30px;
+  font-size: 20px;
+  border: 1px solid grey;
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+#sec-3 {
+  margin-top: 150px;
+}
+
+#partner-img {
+  width: 50%;
+}
+
+#partner-img img {
+  height: 575px;
+}
+
+#partner-txt {
+  width: 50%;
+}
+
+#partner-txt h2 {
+  font-size: 37px;
+}
+
+#partner-txt p {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 /* BTN*/
 .btn {
   color: white;
@@ -372,38 +407,4 @@ i {
 .container-main li i {
   /* color: #0061ff; */
   font-size: 20px;
-}
-
-#uno {
-  width: 50%;
-}
-
-#due {
-  width: 50%;
-}
-
-#uno img {
-  height: 575px;
-}
-
-#sec-3 {
-  margin-top: 150px;
-}
-
-#due h2 {
-  font-size: 37px;
-}
-
-#due p {
-  margin-top: 40px;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-#partner {
-  margin-top: 30px;
-  font-size: 20px;
-  border: 1px solid grey;
-  padding: 5px 15px;
-  display: inline-block;
 }
