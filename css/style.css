@@ -367,11 +367,43 @@ i {
 .sec-2-bt div:first-of-type a {
   color: white;
   text-decoration: none;
-  padding-left: ;
-  padding-right: ;
 }
 
 .container-main li i {
   /* color: #0061ff; */
   font-size: 20px;
+}
+
+#uno {
+  width: 50%;
+}
+
+#due {
+  width: 50%;
+}
+
+#uno img {
+  height: 575px;
+}
+
+#sec-3 {
+  margin-top: 150px;
+}
+
+#due h2 {
+  font-size: 37px;
+}
+
+#due p {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#partner {
+  margin-top: 30px;
+  font-size: 20px;
+  border: 1px solid grey;
+  padding: 5px 15px;
+  display: inline-block;
 }
