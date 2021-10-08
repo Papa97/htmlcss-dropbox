@@ -31,6 +31,7 @@ header {
   left: 0;
   height: 80px;
   width: 100%;
+  border-bottom: 1px solid lightgray;
 }
 
 .logo {
@@ -74,10 +75,21 @@ nav ul li a,
 .inizia {
   font-size: 22px;
   font-weight: 500;
-  line-height: 80px;
+  line-height: 77px;
 }
 
-/* main */
+.inizia a {
+  text-decoration: none;
+}
+
+.cont-nav li:hover {
+  border-bottom: 2px solid;
+}
+
+.inizia #inizia-cont:hover {
+  background-color: #2c7dff;
+}
+
 .jumbotron {
   background-color: #86b5ff;
   height: 700px;
@@ -156,7 +168,7 @@ i {
 }
 
 .container-main {
-  height: 2000px;
+  height: 1000px;
 }
 
 .container-main span {
@@ -232,10 +244,6 @@ i {
   color: rgb(0, 149, 207);
 }
 
-.container-main hr {
-  margin: ;
-}
-
 .box {
   border: 1px solid rgb(161, 161, 161);
   min-height: 900px;
@@ -248,6 +256,25 @@ i {
 .primo-p {
   font-weight: 600;
   border-bottom: 1px solid rgb(161, 161, 161);
+}
+.container-main ul li {
+  list-style: none;
+}
+
+.container-main ul li::before {
+  content: url(../img/check-solid.svg);
+  color: #0061ff;
+  padding-left: 30px;
+  padding-right: 5px;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.sec-2-top {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
 }
 
 /* BTN  */
@@ -291,16 +318,25 @@ i {
   border: 1px solid black;
 }
 
-.container-main ul li {
-  list-style: none;
+.debug .cont-main-top {
+  background-color: red;
+  height: 500px;
 }
 
-.container-main ul li::before {
-  content: url(../img/check-solid.svg);
-  color: #0061ff;
-  padding-left: 30px;
-  padding-right: 5px;
-  font-weight: bold;
+.debug .sec-2-top {
+  height: 40px;
+  background-color: yellow;
+}
+
+.debug .sec-2-bt p {
+  background-color: orange;
+}
+
+.sec-2-bt div:first-of-type {
+  width: 100%;
   display: inline-block;
-  width: 1em;
+}
+
+#sec-2 .cont-main-top {
+  border: 1px solid lightgray;
 }
