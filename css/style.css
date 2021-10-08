@@ -129,7 +129,7 @@ nav ul li a,
 
 .cont-btn {
   margin-top: 40px;
-  text-align: center;
+  text-align: left;
   padding-right: 70px;
 }
 
@@ -168,7 +168,7 @@ i {
 }
 
 .container-main {
-  height: 1000px;
+  height: 1200px;
 }
 
 .container-main span {
@@ -196,7 +196,7 @@ i {
 } */
 
 .container-main ul li {
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .container-main hr {
@@ -246,7 +246,7 @@ i {
 
 .box {
   border: 1px solid rgb(161, 161, 161);
-  min-height: 900px;
+  min-height: 1100px;
 }
 
 .intestazione-box {
@@ -261,15 +261,18 @@ i {
   list-style: none;
 }
 
-.container-main ul li::before {
-  content: url(../img/check-solid.svg);
+/* .container-main ul li::before {
+  content: "\f00c";
   color: #0061ff;
   padding-left: 30px;
   padding-right: 5px;
   font-weight: bold;
   display: inline-block;
   width: 1em;
-}
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  font-size: 48px;
+} */
 
 .sec-2-top {
   text-align: center;
@@ -277,7 +280,37 @@ i {
   border-bottom: 1px solid lightgray;
 }
 
-/* BTN  */
+.sec-2-bt div:first-of-type {
+  width: 100%;
+  display: inline-block;
+}
+
+#sec-2 .cont-main-top {
+  border: 1px solid lightgray;
+}
+
+.cont-p-main {
+  width: 100%;
+}
+
+.font-blue i {
+  color: #0061ff;
+}
+
+.ul-short {
+  padding-top: 5px;
+}
+
+.sec-2-bt {
+  padding: 15px;
+  line-height: 2.6;
+}
+
+.sec-2-bt p:first-of-type {
+  font-size: 24px;
+  font-weight: 600;
+}
+/* BTN*/
 .btn {
   color: white;
   background-color: #0061ff;
@@ -331,12 +364,14 @@ i {
 .debug .sec-2-bt p {
   background-color: orange;
 }
-
-.sec-2-bt div:first-of-type {
-  width: 100%;
-  display: inline-block;
+.sec-2-bt div:first-of-type a {
+  color: white;
+  text-decoration: none;
+  padding-left: ;
+  padding-right: ;
 }
 
-#sec-2 .cont-main-top {
-  border: 1px solid lightgray;
+.container-main li i {
+  /* color: #0061ff; */
+  font-size: 20px;
 }
