@@ -358,6 +358,36 @@ i {
 #sec-4 h2 {
   font-size: 37px;
 }
+
+.box-small {
+  width: calc(100% / 3 - 40px);
+  margin: o auto;
+}
+
+.box-small img {
+  width: 100%;
+  box-sizing: cover;
+}
+
+.sec-4-main {
+  margin-top: 50px;
+}
+
+#sec-4 h2 {
+  margin-bottom: 60px;
+}
+
+.box-small h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 29px;
+}
+
+.box-small p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 /* BTN*/
 .btn {
   color: white;
@@ -430,31 +460,144 @@ i {
   border: 1px solid;
 }
 
-.box-small {
-  width: calc(100% / 3 - 40px);
-  margin: o auto;
+.debug .cont-main-top {
+  height: 500px;
+  background-color: red;
 }
 
-.box-small img {
-  width: 100%;
-  box-sizing: cover;
+#sec-5 .cont-main-top p {
+  font-size: 50px;
+  font-weight: 600;
 }
 
-.sec-4-main {
-  margin-top: 50px;
+#loghi {
+  width: calc(100% / 3);
+}
+#prova {
+  background-color: yellow;
 }
 
-#sec-4 h2 {
-  margin-bottom: 60px;
+#sec-5-box {
+  background-color: lightgrey;
 }
 
-.box-small h3 {
-  margin-top: 20px;
+#sec-5-sx {
+  width: 30%;
+}
+
+#sec-5-mid {
+  width: 40%;
+}
+
+#sec-5-dx {
+  width: 30%;
+}
+
+#uno-sx {
+  background-color: red;
+}
+
+#uno-sx img {
+  height: 40px;
+  filter: invert(1);
+}
+
+#due-sx {
+  background-color: lightblue;
+}
+
+#due-sx img {
+  height: 75px;
+  filter: invert(1);
+}
+
+#tre-sx {
+  background-color: blue;
+}
+
+#tre-sx img {
+  height: 30px;
+  filter: invert(1);
+}
+
+#quattro-sx {
+  background-color: rgb(235, 235, 2);
+}
+
+#quattro-sx img {
+  height: 50px;
+  filter: invert(1);
+}
+
+#sec-5 .cont-main-top {
+  margin-top: 250px;
+}
+
+#sec-5-sx .left {
+  width: 50%;
+  height: 150px;
+  padding: 20px 40px;
+  line-height: 150px;
+}
+
+#sec-5-mid img {
+  height: 40px;
   margin-bottom: 30px;
-  font-size: 29px;
 }
 
-.box-small p {
-  font-size: 18px;
-  line-height: 1.6;
+#sec-5-mid hr {
+  width: 7%;
+  color: lightgrey;
+  margin-bottom: 30px;
+}
+
+#sec-5-txt {
+  margin-bottom: 30px;
+}
+
+#uno-dx {
+  background-color: red;
+}
+
+#uno-dx img {
+  height: 40px;
+  filter: invert(1);
+}
+
+#due-dx {
+  background-color: lightblue;
+}
+
+#due-dx img {
+  height: 15px;
+  filter: invert(1);
+}
+
+#tre-dx {
+  background-color: blue;
+}
+
+#tre-dx img {
+  height: 70px;
+  filter: invert(1);
+}
+
+#quattro-dx {
+  background-color: rgb(235, 235, 2);
+}
+
+#quattro-dx img {
+  height: 90px;
+  filter: invert(1);
+}
+
+#sec-5-dx .left {
+  width: 50%;
+  height: 150px;
+  padding: 20px 40px;
+  line-height: 150px;
+}
+
+.container-sec-5-mid {
+  margin: 33px 0 0 20px;
 }
