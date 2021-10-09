@@ -447,3 +447,14 @@ i {
 #sec-4 h2 {
   margin-bottom: 60px;
 }
+
+.box-small h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 29px;
+}
+
+.box-small p {
+  font-size: 18px;
+  line-height: 1.6;
+}
