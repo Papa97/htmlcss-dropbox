@@ -98,7 +98,7 @@ nav ul li a,
 
 .container {
   width: 85%;
-  height: 700px;
+  /* height: 700px; */
   margin: 0 auto;
 }
 
@@ -163,7 +163,7 @@ i {
   width: calc(100% / 3 - 40px);
 }
 
-#mid-box {
+.mid-box {
   margin: 0 60px 0;
 }
 
@@ -333,6 +333,7 @@ i {
 
 #partner-txt {
   width: 50%;
+  display: inline-block;
 }
 
 #partner-txt h2 {
@@ -345,6 +346,18 @@ i {
   line-height: 1.6;
 }
 
+#partner a {
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+}
+
+#sec-4 {
+  margin-top: 100px;
+}
+
+#sec-4 h2 {
+  font-size: 37px;
+}
 /* BTN*/
 .btn {
   color: white;
@@ -386,11 +399,6 @@ i {
   border: 1px solid black;
 }
 
-.debug .cont-main-top {
-  background-color: red;
-  height: 500px;
-}
-
 .debug .sec-2-top {
   height: 40px;
   background-color: yellow;
@@ -407,4 +415,35 @@ i {
 .container-main li i {
   /* color: #0061ff; */
   font-size: 20px;
+}
+
+.debug .cont-main-top {
+  height: 700px;
+  background-color: red;
+}
+#sec-3 {
+  margin-top: 100px;
+}
+
+.debug .box-small {
+  background-color: yellow;
+  border: 1px solid;
+}
+
+.box-small {
+  width: calc(100% / 3 - 40px);
+  margin: o auto;
+}
+
+.box-small img {
+  width: 100%;
+  box-sizing: cover;
+}
+
+.sec-4-main {
+  margin-top: 50px;
+}
+
+#sec-4 h2 {
+  margin-bottom: 60px;
 }
