@@ -32,6 +32,7 @@ header {
   height: 80px;
   width: 100%;
   border-bottom: 1px solid lightgray;
+  z-index: 999;
 }
 
 .logo {
@@ -388,83 +389,6 @@ i {
   line-height: 1.6;
 }
 
-/* BTN*/
-.btn {
-  color: white;
-  background-color: #0061ff;
-  padding: 5px 10px;
-}
-
-/* DEBUG */
-.debug .head-top {
-  background-color: yellow;
-}
-
-.debug .logo {
-  height: 80px;
-  background-color: red;
-}
-
-.debug .cont-nav {
-  height: 80px;
-  background-color: orange;
-}
-
-.debug .inizia {
-  background-color: blue;
-  height: 80px;
-}
-
-.debug .cont-main-top h2 {
-  background-color: red;
-}
-
-.debug .container-main-top div {
-  background-color: yellow;
-}
-
-.debug .container-main div {
-  height: 900px;
-  /* background-color: orange; */
-  border: 1px solid black;
-}
-
-.debug .sec-2-top {
-  height: 40px;
-  background-color: yellow;
-}
-
-.debug .sec-2-bt p {
-  background-color: orange;
-}
-.sec-2-bt div:first-of-type a {
-  color: white;
-  text-decoration: none;
-}
-
-.container-main li i {
-  /* color: #0061ff; */
-  font-size: 20px;
-}
-
-.debug .cont-main-top {
-  height: 700px;
-  background-color: red;
-}
-#sec-3 {
-  margin-top: 100px;
-}
-
-.debug .box-small {
-  background-color: yellow;
-  border: 1px solid;
-}
-
-.debug .cont-main-top {
-  height: 500px;
-  background-color: red;
-}
-
 #sec-5 .cont-main-top p {
   font-size: 50px;
   font-weight: 600;
@@ -472,9 +396,6 @@ i {
 
 #loghi {
   width: calc(100% / 3);
-}
-#prova {
-  background-color: yellow;
 }
 
 #sec-5-box {
@@ -494,7 +415,7 @@ i {
 }
 
 #uno-sx {
-  background-color: red;
+  background-color: lightgreen;
 }
 
 #uno-sx img {
@@ -503,7 +424,7 @@ i {
 }
 
 #due-sx {
-  background-color: lightblue;
+  background-color: rgb(88, 50, 50);
 }
 
 #due-sx img {
@@ -512,7 +433,7 @@ i {
 }
 
 #tre-sx {
-  background-color: blue;
+  background-color: rgb(58, 170, 214);
 }
 
 #tre-sx img {
@@ -521,7 +442,7 @@ i {
 }
 
 #quattro-sx {
-  background-color: rgb(235, 235, 2);
+  background-color: red;
 }
 
 #quattro-sx img {
@@ -600,4 +521,106 @@ i {
 
 .container-sec-5-mid {
   margin: 33px 0 0 20px;
+}
+
+#sec-5-bt.cont-main-top {
+  margin-top: 0;
+  background-color: lightskyblue;
+}
+
+#sec-5-bt-left {
+  width: 50%;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 100px;
+  color: rgb(88, 50, 50);
+}
+
+#sec-5-bt-right {
+  width: 50%;
+  padding: 100px;
+}
+
+#sec-5-bt-right a {
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  padding: 10px 70px;
+}
+
+/* BTN*/
+.btn {
+  color: white;
+  background-color: #0061ff;
+  padding: 5px 10px;
+}
+
+/* DEBUG */
+.debug .head-top {
+  background-color: yellow;
+}
+
+.debug .logo {
+  height: 80px;
+  background-color: red;
+}
+
+.debug .cont-nav {
+  height: 80px;
+  background-color: orange;
+}
+
+.debug .inizia {
+  background-color: blue;
+  height: 80px;
+}
+
+.debug .cont-main-top h2 {
+  background-color: red;
+}
+
+.debug .container-main-top div {
+  background-color: yellow;
+}
+
+.debug .container-main div {
+  height: 900px;
+  /* background-color: orange; */
+  border: 1px solid black;
+}
+
+.debug .sec-2-top {
+  height: 40px;
+  background-color: yellow;
+}
+
+.debug .sec-2-bt p {
+  background-color: orange;
+}
+.sec-2-bt div:first-of-type a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-main li i {
+  /* color: #0061ff; */
+  font-size: 20px;
+}
+
+.debug .cont-main-top {
+  height: 700px;
+  background-color: red;
+}
+#sec-3 {
+  margin-top: 100px;
+}
+
+.debug .box-small {
+  background-color: yellow;
+  border: 1px solid;
+}
+
+.debug .cont-main-top {
+  height: 500px;
+  background-color: red;
 }
