@@ -589,12 +589,16 @@ i {
 }
 .row-difference {
   font-size: 24px;
-  font-weight: 600;
   display: inline;
+}
+
+.row-difference span {
+  font-weight: 600;
 }
 
 .hidden-div {
   display: none;
+  padding-top: 15px;
 }
 
 .row-difference:hover > .hidden-div {
